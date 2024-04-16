@@ -3,7 +3,7 @@ import Calculator from './components/Calculator'
 
 function App() {
   return (
-    <main className='flex justify-center items-center h-dvh border-2 border-red-400'>
+    <main className='flex justify-center items-center min-h-screen bg-lightGrayishCyan font-spaceMono pt-[40px] md:pt-0'>
       <Calculator/>
     </main>
   )
