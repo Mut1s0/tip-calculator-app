@@ -1,8 +1,11 @@
 import React from 'react'
+import Calculator from './components/Calculator'
 
 function App() {
   return (
-    <h1 className='text-3xl'>App</h1>
+    <main className='flex justify-center items-center h-dvh border-2 border-red-400'>
+      <Calculator/>
+    </main>
   )
 }
 
