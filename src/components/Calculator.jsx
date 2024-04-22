@@ -88,7 +88,7 @@ function Calculator() {
                         <div className='pb-[20px]'>
 
                         <div className='flex items-center justify-between pb-[5px]'>
-                            <h2 className='text-[13px] text-grayishCyan font-spaceMonoBold'>Number of People</h2>
+                            <h2 className='text-[13px] text-grayishCyan font-spaceMonoBold'>Bill</h2>
                             { billError && <p className='font-spaceMonoBold text-[10px] text-red-600'>Can't be zero</p> }
                         </div>
 
